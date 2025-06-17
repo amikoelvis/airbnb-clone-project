@@ -68,3 +68,40 @@ A user-friendly booking system is critical to the success of this application be
 - It ensures that the platform is **accessible to all users**, including those on mobile devices or with disabilities.
 
 Clear navigation, intuitive interfaces, and responsive layouts help ensure users can quickly and confidently complete their bookings.
+
+### Color Styles
+
+- **Primary Color:** `#FF5A5F`
+- **Secondary Color:** `#008489`
+- **Background Color:** `#FFFFFF`
+- **Text Color:** `#222222`
+- **Secondary Text Color:** `#717171`
+
+---
+
+### Typography
+
+- **Primary Font Family:** Circular
+- **Headings:**
+  - Font Weight: Bold (700)
+  - Font Size: 24px – 32px
+- **Body Text:**
+  - Font Weight: Medium (500)
+  - Font Size: 16px
+- **Secondary Text:**
+  - Font Weight: Book (400)
+  - Font Size: 14px
+
+---
+
+### Importance of Identifying Design Properties
+
+Identifying design properties (such as colors, typography, and spacing) from a mockup is essential because:
+
+- It **ensures visual consistency** across the entire application, providing users with a polished and professional experience.
+- It helps in **building reusable components** that adhere to the design system.
+- It allows the team to **implement the design accurately**, reducing miscommunication between designers and developers.
+- It contributes to **maintaining brand identity** and enhances user trust in the platform.
+- It speeds up development by giving developers a clear reference for UI decisions.
+
+By documenting these properties early, teams can build more efficiently and ensure the final product aligns closely with the original design vision.
