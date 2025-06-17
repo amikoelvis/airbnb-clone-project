@@ -118,3 +118,32 @@ By documenting these properties early, teams can build more efficiently and ensu
 | **DevOps Engineers**    | Set up CI/CD pipelines, manage deployment, monitor server infrastructure, handle scalability.                         | Ensure efficient deployment processes and reliable hosting of the application.            |
 | **Product Owner**       | Define requirements, prioritize features, gather stakeholder feedback, refine backlog.                                | Aligns the project with business goals and ensures development delivers value.            |
 | **Scrum Master**        | Facilitate agile ceremonies (stand-ups, sprints, retros), remove blockers, promote team collaboration.                | Keeps the team focused, fosters a productive and adaptive work environment.               |
+
+## 🧩 UI Component Patterns
+
+This project will follow a **component-based architecture** where key UI elements are designed for **reusability**, **consistency**, and **responsiveness** across the application.
+
+### Planned Components
+
+- **Navbar**
+
+  - Contains the logo, search bar, user navigation (login/signup/profile), and a responsive menu.
+  - Designed to provide easy access to core features and ensure smooth navigation on all devices.
+
+- **Property Card**
+
+  - Displays property image, price, location, rating, and a favorite button.
+  - Used within property listings to give users quick insights into available properties.
+  - Built for flexible grid and list layouts, adapting seamlessly to screen size.
+
+- **Footer**
+  - Includes site links, company information, social media links, and copyright.
+  - Ensures consistent branding and easy access to important links at the bottom of every page.
+
+---
+
+### Component Design Principles
+
+- **Reusability:** Each component will be modular and reusable across different pages.
+- **Consistency:** Components will follow the defined color styles, typography, and spacing.
+- **Responsiveness:** All components will be designed mobile-first to ensure a seamless experience on all screen sizes.
