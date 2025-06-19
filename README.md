@@ -180,3 +180,43 @@ The **Airbnb Clone Backend** project is a comprehensive server-side application 
 | **Task Scheduling**     | Celery Beat                     |
 | **DevOps & Deployment** | Docker Compose, CI/CD Pipelines |
 | **Testing Tools**       | Pytest, Postman, Swagger UI     |
+
+## 👥 Team Roles
+
+This project brings together specialists across different domains to build a scalable and efficient backend system. Below is an overview of the key roles and their responsibilities within the Airbnb Clone Backend project.
+
+### 🧠 Backend Developer
+
+**Responsibilities**:
+
+- Develop and maintain RESTful and GraphQL API endpoints.
+- Implement core business logic for user management, bookings, payments, and reviews.
+- Ensure secure authentication and authorization.
+- Collaborate with frontend teams for seamless API integration.
+
+### 🗄️ Database Administrator (DBA)
+
+**Responsibilities**:
+
+- Design and manage the PostgreSQL database schema.
+- Optimize database queries and create indexes for performance.
+- Monitor database health and implement backup and recovery strategies.
+- Ensure data integrity and security.
+
+### ⚙️ DevOps Engineer
+
+**Responsibilities**:
+
+- Set up and manage Docker-based development and production environments.
+- Implement and maintain CI/CD pipelines for automated testing and deployment.
+- Monitor server performance and scalability.
+- Manage environment variables, secrets, and logging infrastructure.
+
+### ✅ QA Engineer
+
+**Responsibilities**:
+
+- Write and execute unit, integration, and API tests.
+- Perform functional testing of all backend features.
+- Validate system performance and handle edge-case scenarios.
+- Ensure bug tracking and regression testing across updates.
