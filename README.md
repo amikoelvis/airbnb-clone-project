@@ -396,3 +396,49 @@ Represents user feedback on properties.
 - **Property** ➝ has many ➝ **Bookings**
 - **Property** ➝ has many ➝ **Reviews**
 - **Booking** ➝ has one ➝ **Payment**
+
+## ✨ Feature Breakdown
+
+This section outlines the core features implemented in the Airbnb Clone Backend and how each contributes to delivering a functional and user-centric platform.
+
+---
+
+### 👤 User Management
+
+Enables users to register, log in, and manage their profile information securely. Authentication and authorization are implemented to protect sensitive data and restrict access to certain features based on user roles (e.g., host vs. guest).
+
+---
+
+### 🏠 Property Management
+
+Allows hosts to create, update, and delete property listings, including key details like location, pricing, and amenities. This feature ensures properties are accurately represented and searchable for booking.
+
+---
+
+### 📅 Booking System
+
+Enables guests to book properties for specific dates, with validation to prevent double bookings. It supports check-in/check-out dates and calculates the total price of the stay.
+
+---
+
+### 💳 Payment Processing
+
+Integrates a system to process payments securely for completed bookings. This ensures financial transactions are tracked and recorded, providing both hosts and guests with payment history and status.
+
+---
+
+### ⭐ Review System
+
+Allows users to leave reviews and ratings for properties they’ve stayed at. This helps build trust and transparency on the platform by giving future guests insights into the experiences of others.
+
+---
+
+### 📦 API Documentation
+
+RESTful APIs are documented using the OpenAPI standard and exposed via tools like Swagger UI for easy testing and integration. Additionally, GraphQL is supported to provide flexible data queries for frontend developers.
+
+---
+
+### 🚀 Performance Optimization
+
+Implements caching with Redis and database indexing to improve API response times and reduce server load. Background tasks handled by Celery ensure that time-consuming operations don’t block real-time user interactions.
