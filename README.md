@@ -442,3 +442,60 @@ RESTful APIs are documented using the OpenAPI standard and exposed via tools lik
 ### 🚀 Performance Optimization
 
 Implements caching with Redis and database indexing to improve API response times and reduce server load. Background tasks handled by Celery ensure that time-consuming operations don’t block real-time user interactions.
+
+## 🔐 API Security
+
+Security is a critical component of the Airbnb Clone Backend, ensuring the integrity, confidentiality, and availability of user data and services. The following security measures are implemented to protect the application and its users.
+
+---
+
+### 🔑 Authentication
+
+**Implementation**: Token-based authentication using JSON Web Tokens (JWT).  
+**Why It Matters**: Verifies the identity of users accessing the API, ensuring that only registered and logged-in users can perform sensitive operations such as bookings and payments.
+
+---
+
+### 🛂 Authorization
+
+**Implementation**: Role-based access control to differentiate permissions for guests and hosts.  
+**Why It Matters**: Prevents users from accessing or modifying resources they do not own, such as editing another user's property listing or accessing admin features.
+
+---
+
+### 📈 Rate Limiting
+
+**Implementation**: Throttle API requests using Django REST Framework’s throttling classes or tools like Django Ratelimit.  
+**Why It Matters**: Protects the API from abuse, brute-force attacks, and denial-of-service (DoS) attacks by limiting the number of requests a user or IP address can make in a given time period.
+
+---
+
+### 🔒 Data Encryption
+
+**Implementation**: Use of HTTPS for all data transmission and encryption of sensitive fields (e.g., passwords using hashing algorithms like bcrypt).  
+**Why It Matters**: Ensures that sensitive data such as login credentials and payment information are not exposed to unauthorized parties during transmission.
+
+---
+
+### 🧪 Input Validation & Sanitization
+
+**Implementation**: Validate all user input on both frontend and backend; use serializers and form validation.  
+**Why It Matters**: Prevents common vulnerabilities like SQL injection, XSS, and malformed data from compromising the application or database.
+
+---
+
+### 📬 Secure Payment Processing
+
+**Implementation**: Use trusted third-party services (e.g., Stripe or PayPal) for handling payment transactions.  
+**Why It Matters**: Ensures compliance with payment industry standards (e.g., PCI-DSS) and protects users' financial data during processing and storage.
+
+---
+
+### 🔁 Session and Token Expiry
+
+**Implementation**: Set expiration times on authentication tokens and manage session lifecycles securely.  
+**Why It Matters**: Reduces the risk of session hijacking and unauthorized long-term access to user accounts.
+
+---
+
+By applying these security best practices, the backend system ensures safe interactions, protects user information, and builds trust across all features of the platform.
