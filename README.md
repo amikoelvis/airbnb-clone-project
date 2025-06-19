@@ -1,4 +1,4 @@
-# 🏡 AirBnB Clone
+# 🏡 # StayFrontend: The Airbnb Clone Project Blueprint
 
 ## Overview
 
@@ -147,3 +147,36 @@ This project will follow a **component-based architecture** where key UI element
 - **Reusability:** Each component will be modular and reusable across different pages.
 - **Consistency:** Components will follow the defined color styles, typography, and spacing.
 - **Responsiveness:** All components will be designed mobile-first to ensure a seamless experience on all screen sizes.
+
+# StayBackend: The Airbnb Clone Project Blueprint
+
+## 📝 Project Overview
+
+The **Airbnb Clone Backend** project is a comprehensive server-side application built to replicate the core functionalities of Airbnb. It provides RESTful and GraphQL APIs to manage users, property listings, bookings, payments, and reviews. The system is built for scalability, maintainability, and performance, serving as a reliable backend foundation for an Airbnb-like platform.
+
+---
+
+### 🎯 Project Goals
+
+- **User Management**: Enable secure user registration, login, and profile updates.
+- **Property Listings**: Allow hosts to create, update, and manage property data.
+- **Booking System**: Support real-time property reservations, check-ins, and check-outs.
+- **Payment Integration**: Process and store booking payment transactions securely.
+- **Review & Rating System**: Allow users to leave feedback on properties they stay at.
+- **Performance Optimization**: Utilize caching, indexing, and asynchronous processing for fast and efficient API responses.
+
+---
+
+### ⚙️ Technology Stack
+
+| Layer                   | Technology                      |
+| ----------------------- | ------------------------------- |
+| **Backend Framework**   | Django, Django REST Framework   |
+| **Database**            | PostgreSQL                      |
+| **API Interfaces**      | REST (OpenAPI), GraphQL         |
+| **Asynchronous Tasks**  | Celery                          |
+| **Caching**             | Redis                           |
+| **Containerization**    | Docker                          |
+| **Task Scheduling**     | Celery Beat                     |
+| **DevOps & Deployment** | Docker Compose, CI/CD Pipelines |
+| **Testing Tools**       | Pytest, Postman, Swagger UI     |
