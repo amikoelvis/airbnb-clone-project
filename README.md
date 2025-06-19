@@ -499,3 +499,45 @@ Security is a critical component of the Airbnb Clone Backend, ensuring the integ
 ---
 
 By applying these security best practices, the backend system ensures safe interactions, protects user information, and builds trust across all features of the platform.
+
+## 🔄 CI/CD Pipeline
+
+### What is CI/CD?
+
+**CI/CD** stands for **Continuous Integration** and **Continuous Deployment/Delivery**. It is a development practice that enables teams to deliver code changes more frequently and reliably through automation. CI/CD pipelines automate the processes of building, testing, and deploying code, ensuring that every code change is validated before reaching production.
+
+---
+
+### Why It’s Important
+
+- ✅ **Faster Delivery**: Automates testing and deployment, speeding up the release cycle.
+- 🐞 **Fewer Bugs**: Automatically runs tests on every commit, reducing the chance of introducing errors.
+- 🔁 **Consistency**: Ensures that code runs in the same environment across development, staging, and production.
+- 🔐 **Security & Compliance**: Automatically enforces checks and policies before deploying code.
+
+---
+
+### Tools Used
+
+- **GitHub Actions**: Automates workflows for testing, linting, and deploying the code on push or pull requests.
+- **Docker**: Ensures consistent runtime environments across development and deployment by containerizing the application.
+- **Docker Compose**: Manages multi-container services (e.g., web, database, Redis) during CI/CD operations.
+- **pytest**: Runs unit and integration tests as part of the CI workflow.
+- **Heroku / AWS / Render (Optional)**: Can be used as deployment targets once CI passes.
+
+---
+
+### Example CI/CD Workflow
+
+1. Developer pushes code to GitHub.
+2. GitHub Actions triggers a CI workflow:
+   - Build Docker containers.
+   - Run automated tests with `pytest`.
+   - Lint and check code formatting.
+3. If CI passes, the CD workflow:
+   - Deploys the application to the chosen environment.
+   - Notifies the team of a successful deployment.
+
+---
+
+By implementing a CI/CD pipeline, the project maintains a high standard of code quality and reliability, while reducing the overhead and risk associated with manual deployments.
