@@ -220,3 +220,67 @@ This project brings together specialists across different domains to build a sca
 - Perform functional testing of all backend features.
 - Validate system performance and handle edge-case scenarios.
 - Ensure bug tracking and regression testing across updates.
+
+## ⚙️ Technology Stack
+
+This project leverages a modern backend technology stack to ensure performance, scalability, and ease of development. Below is a breakdown of the core technologies used and their roles in the project.
+
+### 🐍 Django
+
+A high-level Python web framework used to build secure and maintainable web applications quickly.  
+**Purpose**: Handles the core backend logic, URL routing, database integration, and admin functionalities.
+
+### 🧰 Django REST Framework (DRF)
+
+A powerful and flexible toolkit for building Web APIs on top of Django.  
+**Purpose**: Provides RESTful API endpoints for users, properties, bookings, payments, and reviews.
+
+### 🐘 PostgreSQL
+
+A powerful open-source relational database system.  
+**Purpose**: Stores structured data such as user profiles, property listings, booking details, and payment records.
+
+### 🔍 GraphQL
+
+A query language for APIs that allows clients to request exactly the data they need.  
+**Purpose**: Enables flexible and efficient client-side data fetching, reducing over-fetching and under-fetching.
+
+### 📦 Celery
+
+An asynchronous task queue based on distributed message passing.  
+**Purpose**: Handles background tasks like sending email notifications and processing payments.
+
+### ⚡ Redis
+
+An in-memory key-value data store used as a cache and message broker.  
+**Purpose**: Stores session data, speeds up database queries via caching, and acts as a message broker for Celery.
+
+### 🐳 Docker
+
+A platform for developing, shipping, and running applications in isolated containers.  
+**Purpose**: Provides consistent development and deployment environments for the backend stack.
+
+### 🔁 Docker Compose
+
+A tool for defining and running multi-container Docker applications.  
+**Purpose**: Manages services such as the Django app, PostgreSQL, and Redis in one command.
+
+### 🔄 Celery Beat
+
+A scheduler for periodic tasks used alongside Celery.  
+**Purpose**: Automates recurring tasks like clearing expired sessions or sending reminders.
+
+### 🔬 Pytest
+
+A testing framework for Python applications.  
+**Purpose**: Enables thorough unit and integration testing to ensure system reliability.
+
+### 📬 Postman / Swagger UI
+
+API documentation and testing tools.  
+**Purpose**: Used to interact with and validate RESTful API endpoints during development and testing.
+
+### 🔧 CI/CD Pipelines
+
+Automated workflows for building, testing, and deploying code.  
+**Purpose**: Ensures code changes are validated and deployed efficiently and reliably.
